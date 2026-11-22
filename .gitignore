@@ -1,0 +1,11 @@
+.venv/
+.venv_rocm/
+__pycache__/
+.pytest_cache/
+chroma_db/
+*.db
+.env
+.ruff_cache/
+.vscode/
+.agents/
+.ruff_cache/

@@ -1,0 +1,11 @@
+chromadb
+pymupdf
+ollama
+fastapi
+uvicorn[standard]
+streamlit
+httpx
+pytest
+
+# solo per scripts/make_sample_pdfs.py
+reportlab

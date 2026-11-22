@@ -1,0 +1,24 @@
+{
+  "in_domain": [
+    {"q": "Cosa si intende per ritardo alla partenza?", "must_contain": "off-block"},
+    {"q": "Quali sono le soglie per classificare un ritardo come lieve, moderato o grave?", "must_contain": "da 31 a 120"},
+    {"q": "Entro quanti minuti va fatto l'annuncio in caso di ritardo lieve?", "must_contain": "entro 10 minuti"},
+    {"q": "Ogni quanto si aggiornano i passeggeri durante un ritardo moderato?", "must_contain": "ogni 30 minuti"},
+    {"q": "Cosa viene distribuito ai passeggeri in caso di ritardo moderato?", "must_contain": "acqua"},
+    {"q": "Entro quanto va informato il responsabile operativo di scalo in un ritardo moderato?", "must_contain": "entro 15 minuti"},
+    {"q": "Quando viene offerto un pasto ai passeggeri?", "must_contain": "180 minuti"},
+    {"q": "Chi decide lo sbarco dei passeggeri?", "must_contain": "comandante"},
+    {"q": "Quali sono i motivi ammessi per registrare un ritardo?", "must_contain": "traffico aereo"},
+    {"q": "Quando è obbligatorio indicare il motivo del ritardo?", "must_contain": "superiori a 15 minuti"},
+    {"q": "Entro quando va consegnato il rapporto di volo?", "must_contain": "fine del servizio"},
+    {"q": "Cosa fa il capo cabina se un passeggero rischia di perdere la coincidenza?", "must_contain": "coincidenze a rischio"},
+    {"q": "Cosa va registrato se il ritardo è causato dal maltempo?", "must_contain": "meteo"},
+    {"q": "Cosa deve verificare il capo cabina dopo uno sbarco?", "must_contain": "bagagli"}
+  ],
+  "out_of_domain": [
+    {"q": "Dopo quanto ritardo si può ottenere un rimborso?"},
+    {"q": "Quanto costa un biglietto per New York?"},
+    {"q": "Qual è la capitale della Francia?"},
+    {"q": "Qual è il peso massimo del bagaglio a mano?"}
+  ]
+}
